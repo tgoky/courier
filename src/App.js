@@ -37,14 +37,6 @@ const App = () => {
           <img src={courier1} alt="Courier 1" className="courier-image" />
           <p className="courier-text">The best courier in the world. Ship now the best</p>
         </div>
-        <div className="courier-container">
-          <img src={courier2} alt="Courier 2" className="courier-image" />
-          <p className="courier-text">The best courier in the world. Ship now the best</p>
-        </div>
-        <div className="courier-container">
-          <img src={courier3} alt="Courier 3" className="courier-image" />
-          <p className="courier-text">The best courier in the world. Ship now the best</p>
-        </div>
       </div>
     );
   };
