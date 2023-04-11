@@ -38,7 +38,8 @@ nav ul li:hover, nav ul li:focus {
 }
 
 h1 {
-  margin-top: 40px;
+  margin-top: 2vw; /* Use viewport units for margin-top */
+  font-size: 3vw; /* Use viewport units for font-size */
 }
 
 form {
@@ -88,7 +89,10 @@ button {
 }
 
 .courier-container:hover .courier-image {
-  transform: scale(1.4); /* Apply zoom effect on hover */
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .courier-text {
