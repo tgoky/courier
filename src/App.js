@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import trackingData from './trackingInfo.json'; // Import tracking data from JSON file
 import './App.css'; // Import CSS file for styling
 import courier1 from  '../src/assets/img/courier3.png';
-import courier2 from  '../src/assets/img/courirt9.png';
-import courier3 from  '../src/assets/img/courier6.png';
+
 
 const App = () => {
   const [trackingInfo, setTrackingInfo] = useState(null);
