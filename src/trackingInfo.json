@@ -1,0 +1,14 @@
+[
+  {
+    "trackingCode": "DEL12345",
+    "status": "In Transit",
+    "estimatedDeliveryTime": "April 15, 2023",
+    "location": "New York, NY"
+  },
+  {
+    "trackingCode": "DEL67890",
+    "status": "Delivered",
+    "estimatedDeliveryTime": "April 10, 2023",
+    "location": "Los Angeles, CA"
+  }
+]

@@ -1,0 +1,130 @@
+.container {
+  max-width: 200%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+body {
+  background-color: lightblue; /* Add background color to body */
+}
+
+header {
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold; /* Add font-weight property to make text bold */
+}
+
+nav ul li:hover {
+  color: blue;
+}
+
+nav ul li:hover, nav ul li:focus {
+  background-color: lightblue;
+  color: #fff;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+
+.delivery-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.courier-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px; /* Add spacing between courier containers */
+  border: 1px solid #000; /* Add border style */
+  padding: 20px; /* Add padding for spacing between image and text */
+}
+
+.courier-image {
+  width: 300px; /* Set image width */
+  height: 300px; /* Set image height */
+  object-fit: contain; /* Ensure image stays within container */
+  transition: transform 0.3s ease; /* Add transition for zoom animation on hover */
+}
+
+.courier-container:hover .courier-image {
+  transform: scale(1.4); /* Apply zoom effect on hover */
+}
+
+.courier-text {
+
+  color: #000; /* Set font color */
+  text-align: center; /* Center align text */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.dhl-menu {
+  background-color: yellow;
+  padding: 10px;
+}
+
+.dhl-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dhl-menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.dhl-menu ul li a {
+  color: #000; /* Set desired font color */
+  text-decoration: none;
+}
+
+.contact-info {
+  float: right;
+}
+
+.contact-info a {
+  margin-left: 10px;
+  color: #000; /* Set desired font color */
+  text-decoration: none;
+}
